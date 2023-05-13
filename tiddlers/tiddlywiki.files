@@ -1,0 +1,14 @@
+{
+  "directories": [
+    {
+      "path": "../md",
+      "filesRegExp": "^.*\\.md$",
+      "fields": {
+        "title": {
+          "source": "basename"
+        },
+        "type": "text/markdown"
+      }
+    }
+  ]
+}
